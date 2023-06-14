@@ -41,7 +41,7 @@ Everything you do with your Supabase project requires memory in some form. Hence
 
 - **Query performance:** Queries that take a long time to complete (>1 second) could be using your RAM inefficiently. Check our guide on [examining query performance](https://supabase.com/docs/guides/platform/performance#examining-query-performance).
 - **Too many connections:** Every connection to your database consumes memory. You can check the number of active connections [here](https://supabase.com/dashboard/project/_/database/roles) after you select your project. We also have a separate guide on too many connections [here](https://supabase.com/docs/guides/platform/troubleshooting#too-many-open-connections).
-- **Extensions:** Some extensions such as timescale or pg_cron can use a lot of memory. It can also add up when you have too many extensions running. You can manage your database extensions [here](https://app.supabase.com/project/_/database/extensions).
+- **Extensions:** Some extensions such as `timescaledb` or `pg_cron` can use a lot of memory. It can also add up when you have too many extensions running. You can manage your database extensions [here](https://app.supabase.com/project/_/database/extensions).
 
 ## How to fix your memory issues
 
